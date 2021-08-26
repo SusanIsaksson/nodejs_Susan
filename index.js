@@ -9,7 +9,8 @@ server.use(express.json)
 
 //3. Skapa end-point (get, post) lyssnar efter "get/post"-anrop
 server.get('/api', (req, res) => {
-    res.json("GET")    //skicka tillbaka "Välkommen"
+    //skicka tillbaka "GET"
+    res.json("GET")    
 })
 
 //5. Skapa endpoint POST, lägga till saker
