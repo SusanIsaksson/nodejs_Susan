@@ -1,0 +1,12 @@
+//lib av REST-client (ska installeras) i test-syfte 
+//ska gå till alla end-points som test
+
+GET http://localhost:3000
+
+POST http://localhost:3000/api/confirmOrder
+Content-Type: application/json
+
+{
+    productName: "Iphone",
+    price: 4000
+}
